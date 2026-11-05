@@ -1,0 +1,17 @@
+# Libraries and build output
+target/
+.venv/
+node_modules/
+__pycache__/
+cypress/cypress/downloads/
+
+# Editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Robot Framework generated files
+robot/output.xml
+robot/log.html
+robot/report.html
+robot/*.png

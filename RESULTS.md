@@ -35,12 +35,12 @@ Step 3.8, run 2, result, elapsed time and pizza name: PASS, 9.4s, Lab Pizza 2026
 
 ## Part 4: Cypress
 
-node --version, npm-version and npx cypress version: node v26.13.0, npm 11.20.0, cypress 16.2.1
-Step 4.3, failure message for the wrong title: Timed out retrying after 10000ms: expected 'Web form' to equal 'Web Form'
-Step 4.6, tool and calories in the answer of POST /api/pizza:
-Step 4.7, the line of the admin list that shows your pizza:
-Step 4.8, run 1, result, duration and pizza name:
-Step 4.8, run 2, result, duration and pizza name:
+node --version, npm-version and npx cypress version: node v24.16.0, npm 11.13.0, cypress 16.2.1
+Step 4.3, failure message for the wrong title: Timed out retrying after 10000ms: expected 'Web form' to equal 'Wrong Title Test'
+Step 4.6, tool and calories in the answer of POST /api/pizza: Pizza cutter, 350
+Step 4.7, the line of the admin list that shows your pizza: Lab Pizza 20261110-210943 (tool=Pizza cutter, ingredients_number=5)
+Step 4.8, run 1, result, duration and pizza name: PASS, 20s, Lab Pizza 20261110-210700
+Step 4.8, run 2, result, duration and pizza name: PASS, 17s, Lab Pizza 20261110-210943
 
 ## Part B
 
